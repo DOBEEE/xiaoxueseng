@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>百度一下</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <style>
+        html,body{
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    <script src="./libs/dist/js/lib/jquery-1.10.2.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./libs/dist/css/wangEditor.min.css">
+    <script src="./libs/dist/js/wangEditor.min.js"></script>
+    
+</head>
+<body>
+<script>
+    var config = {
+        url: '//localhost:3000'
+    };
+    wangEditor.config.printLog = false;
+    window.__INITIAL_STATE__ = {
+        session: {
+            name: '',
+            id: ''
+        },
+        quan: {
+            owner: [
+                {
+                    id: '123',
+                    title: '文艺圈',
+                    description: '我是描述',
+                    pic: '//dn-mhke0kuv.qbox.me/a0c372a8cdd8ab4cdd40.jpg',
+                    owner: '',
+                    member: 10
+                },
+                {
+                    id: '123',
+                    title: '文艺圈',
+                    description: '我是描述',
+                    pic: '//dn-mhke0kuv.qbox.me/a0c372a8cdd8ab4cdd40.jpg',
+                    owner: '',
+                    member: 10
+                },
+                {
+                    id: '123',
+                    title: '文艺圈',
+                    description: '我是描述',
+                    pic: '//dn-mhke0kuv.qbox.me/a0c372a8cdd8ab4cdd40.jpg',
+                    owner: '',
+                    member: 10
+                },
+                {
+                    id: '123',
+                    title: '文艺圈',
+                    description: '我是描述',
+                    pic: '//dn-mhke0kuv.qbox.me/a0c372a8cdd8ab4cdd40.jpg',
+                    owner: '',
+                    member: 10
+                }
+            ],
+            others: [
+                {
+                    id: '123',
+                    title: '文艺圈',
+                    description: '我是描述',
+                    pic: '//dn-mhke0kuv.qbox.me/a0c372a8cdd8ab4cdd40.jpg',
+                    owner: '',
+                    member: 10
+                },
+                {
+                    id: '123',
+                    title: '文艺圈',
+                    description: '我是描述',
+                    pic: '//dn-mhke0kuv.qbox.me/a0c372a8cdd8ab4cdd40.jpg',
+                    owner: '',
+                    member: 10
+                },
+                {
+                    id: '123',
+                    title: '文艺圈',
+                    description: '我是描述',
+                    pic: '//dn-mhke0kuv.qbox.me/a0c372a8cdd8ab4cdd40.jpg',
+                    owner: '',
+                    member: 10
+                },
+                {
+                    id: '123',
+                    title: '文艺圈',
+                    description: '我是描述',
+                    pic: '//dn-mhke0kuv.qbox.me/a0c372a8cdd8ab4cdd40.jpg',
+                    owner: '',
+                    member: 10
+                }
+            ]
+        },
+        quandetail: {
+            type: '1234',
+            content: [
+                {
+                    title: '我是一篇文章',
+                    description: '我是描述',
+                    author: '令狐冲',
+                    zhaiyao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis pretium massa. Aliquam erat volutpat. Nulla facilisi. Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed ',
+                    authorImg: '//dn-mhke0kuv.qbox.me/a0c372a8cdd8ab4cdd40.jpg?imageView2/1/w/100/h/100/q/85/interlace/1',
+                    pic: '//dn-mhke0kuv.qbox.me/5bf2bb10d2f24dc8394d.jpg',
+                    time: '2017-04-28',
+                    islike: '1',
+                    like: 10,
+                    isstar: '0',
+                    star: 5
+                },
+                {
+                    title: '我是一篇文章',
+                    description: '我是描述',
+                    zhaiyao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis pretium massa. Aliquam erat volutpat. Nulla facilisi. Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed ',
+                    author: '令狐冲',
+                    authorImg: '//dn-mhke0kuv.qbox.me/a0c372a8cdd8ab4cdd40.jpg?imageView2/1/w/100/h/100/q/85/interlace/1',
+                    pic: '',
+                    time: '2017-04-28',
+                    islike: '0',
+                    like: 10,
+                    isstar: '1',
+                    star: 5
+                }
+            ]
+        },
+        home: {
+            type: 'tuijian',
+            content: [
+                {
+                    title: '我是一篇文章',
+                    description: '我是描述',
+                    author: '令狐冲',
+                    zhaiyao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis pretium massa. Aliquam erat volutpat. Nulla facilisi. Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed ',
+                    authorImg: '//dn-mhke0kuv.qbox.me/a0c372a8cdd8ab4cdd40.jpg?imageView2/1/w/100/h/100/q/85/interlace/1',
+                    pic: '//dn-mhke0kuv.qbox.me/5bf2bb10d2f24dc8394d.jpg',
+                    time: '2017-04-28',
+                    islike: '1',
+                    like: 10,
+                    isstar: '0',
+                    star: 5
+                },
+                {
+                    title: '我是一篇文章',
+                    description: '我是描述',
+                    zhaiyao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis pretium massa. Aliquam erat volutpat. Nulla facilisi. Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed ',
+                    author: '令狐冲',
+                    authorImg: '//dn-mhke0kuv.qbox.me/a0c372a8cdd8ab4cdd40.jpg?imageView2/1/w/100/h/100/q/85/interlace/1',
+                    pic: '',
+                    time: '2017-04-28',
+                    islike: '0',
+                    like: 10,
+                    isstar: '1',
+                    star: 5
+                }
+            ]
+        },
+        tiedetail:{
+            tieid: '0001',
+            title: '我是一篇文章',
+            zhaiyao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis pretium massa. Aliquam erat volutpat. Nulla facilisi. Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed ',
+            author: '令狐冲',
+            authorid: '122333',
+            authorImg: '//dn-mhke0kuv.qbox.me/a0c372a8cdd8ab4cdd40.jpg?imageView2/1/w/100/h/100/q/85/interlace/1',
+            pic: '',
+            time: '2017-04-28',
+            islike: '0',
+            like: 10,
+            isstar: '1',
+            star: 5,
+            comments: [
+                {
+                    content: '我是一篇文章',
+                    author: '令狐冲',
+                    authorid: '122333',
+                    authorImg: '//dn-mhke0kuv.qbox.me/a0c372a8cdd8ab4cdd40.jpg?imageView2/1/w/100/h/100/q/85/interlace/1',
+                    time: '2017-04-28'
+                },
+                {
+                    content: '我是一篇文章',
+                    author: '令狐冲',
+                    authorid: '122333',
+                    authorImg: '//dn-mhke0kuv.qbox.me/a0c372a8cdd8ab4cdd40.jpg?imageView2/1/w/100/h/100/q/85/interlace/1',
+                    time: '2017-04-28'
+                },
+                {
+                    content: '我是一篇文章',
+                    author: '令狐冲',
+                    authorid: '122333',
+                    authorImg: '//dn-mhke0kuv.qbox.me/a0c372a8cdd8ab4cdd40.jpg?imageView2/1/w/100/h/100/q/85/interlace/1',
+                    time: '2017-04-28'
+                }
+            ]
+        },
+        userlist: [
+            {username: 'llll',id: '0111',nicheng:'hahaha',level:'1'}
+        ],
+        user: {
+            author: '令狐冲',
+            authorid: '122333',
+            authorImg: '//dn-mhke0kuv.qbox.me/a0c372a8cdd8ab4cdd40.jpg?imageView2/1/w/100/h/100/q/85/interlace/1',
+            ties: [],
+            comments: [],
+            stars: []
+        },
+        signup: {},
+        login: {}
+    }
+    window.BISHEDATA = 'test1';
+</script>
+    <div id="container"></div>
+    
+<script type="text/javascript" src="main.min.js"></script></body>
+</html>

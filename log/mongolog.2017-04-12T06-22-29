@@ -1,0 +1,59 @@
+2017-04-11T13:04:16.131+0800 I CONTROL  [initandlisten] MongoDB starting : pid=11112 port=27017 dbpath=/Users/baidu/Documents/bishe/db 64-bit host=MacBook-Pro.local
+2017-04-11T13:04:16.131+0800 I CONTROL  [initandlisten] db version v3.4.3
+2017-04-11T13:04:16.132+0800 I CONTROL  [initandlisten] git version: f07437fb5a6cca07c10bafa78365456eb1d6d5e1
+2017-04-11T13:04:16.132+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 0.9.8zh 14 Jan 2016
+2017-04-11T13:04:16.132+0800 I CONTROL  [initandlisten] allocator: system
+2017-04-11T13:04:16.132+0800 I CONTROL  [initandlisten] modules: none
+2017-04-11T13:04:16.132+0800 I CONTROL  [initandlisten] build environment:
+2017-04-11T13:04:16.132+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-04-11T13:04:16.132+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-04-11T13:04:16.132+0800 I CONTROL  [initandlisten] options: { storage: { dbPath: "/Users/baidu/Documents/bishe/db" }, systemLog: { destination: "file", path: "/Users/baidu/Documents/bishe/log/mongolog" } }
+2017-04-11T13:04:16.135+0800 I -        [initandlisten] Detected data files in /Users/baidu/Documents/bishe/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-04-11T13:04:16.138+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3584M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-04-11T13:04:17.622+0800 I CONTROL  [initandlisten] 
+2017-04-11T13:04:17.622+0800 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-04-11T13:04:17.622+0800 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-04-11T13:04:17.622+0800 I CONTROL  [initandlisten] 
+2017-04-11T13:04:17.622+0800 I CONTROL  [initandlisten] 
+2017-04-11T13:04:17.622+0800 I CONTROL  [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+2017-04-11T13:04:17.668+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/Users/baidu/Documents/bishe/db/diagnostic.data'
+2017-04-11T13:04:17.669+0800 I NETWORK  [thread1] waiting for connections on port 27017
+2017-04-11T13:04:49.621+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:52465 #1 (1 connection now open)
+2017-04-11T13:04:49.622+0800 I NETWORK  [conn1] received client metadata from 127.0.0.1:52465 conn1: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.3" }, os: { type: "Darwin", name: "Mac OS X", architecture: "x86_64", version: "16.4.0" } }
+2017-04-11T13:05:24.502+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:52612 #2 (2 connections now open)
+2017-04-11T13:05:24.502+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:52613 #3 (3 connections now open)
+2017-04-11T13:05:24.536+0800 I -        [conn2] end connection 127.0.0.1:52612 (3 connections now open)
+2017-04-11T13:05:24.636+0800 I -        [conn3] end connection 127.0.0.1:52613 (2 connections now open)
+2017-04-11T13:08:15.874+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:53137 #4 (2 connections now open)
+2017-04-11T13:08:15.874+0800 I -        [conn4] end connection 127.0.0.1:53137 (2 connections now open)
+2017-04-11T13:08:15.983+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:53138 #5 (2 connections now open)
+2017-04-11T13:08:15.984+0800 I -        [conn5] end connection 127.0.0.1:53138 (2 connections now open)
+2017-04-11T13:09:26.520+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:53460 #6 (2 connections now open)
+2017-04-11T13:09:26.520+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:53461 #7 (3 connections now open)
+2017-04-11T13:09:26.520+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:53462 #8 (4 connections now open)
+2017-04-11T13:09:26.520+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:53463 #9 (5 connections now open)
+2017-04-11T13:09:26.629+0800 I -        [conn6] end connection 127.0.0.1:53460 (5 connections now open)
+2017-04-11T13:09:38.014+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:53510 #10 (5 connections now open)
+2017-04-11T13:09:38.014+0800 I -        [conn10] end connection 127.0.0.1:53510 (5 connections now open)
+2017-04-11T13:09:38.015+0800 I -        [conn9] end connection 127.0.0.1:53463 (4 connections now open)
+2017-04-11T13:09:38.015+0800 I -        [conn8] end connection 127.0.0.1:53462 (3 connections now open)
+2017-04-11T13:09:38.015+0800 I -        [conn7] end connection 127.0.0.1:53461 (2 connections now open)
+2017-04-11T13:09:38.120+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:53511 #11 (2 connections now open)
+2017-04-11T13:09:38.120+0800 I -        [conn11] end connection 127.0.0.1:53511 (2 connections now open)
+2017-04-11T13:11:02.419+0800 I -        [conn1] end connection 127.0.0.1:52465 (1 connection now open)
+2017-04-11T13:11:10.198+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:53914 #12 (1 connection now open)
+2017-04-11T13:11:10.198+0800 I NETWORK  [conn12] received client metadata from 127.0.0.1:53914 conn12: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.3" }, os: { type: "Darwin", name: "Mac OS X", architecture: "x86_64", version: "16.4.0" } }
+2017-04-12T10:12:09.466+0800 I COMMAND  [ftdc] serverStatus was very slow: { after basic: 0, after asserts: 0, after backgroundFlushing: 0, after connections: 0, after dur: 0, after extra_info: 0, after globalLock: 0, after locks: 0, after network: 0, after opLatencies: 0, after opcounters: 0, after opcountersRepl: 0, after repl: 0, after security: 0, after storageEngine: 0, after wiredTiger: 10161489, at end: 10161489 }
+2017-04-12T11:36:23.309+0800 I -        [conn12] end connection 127.0.0.1:53914 (1 connection now open)
+2017-04-12T14:18:09.693+0800 I CONTROL  [signalProcessingThread] got signal 2 (Interrupt: 2), will terminate after current cmd ends
+2017-04-12T14:18:09.696+0800 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2017-04-12T14:18:09.697+0800 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2017-04-12T14:18:09.697+0800 I NETWORK  [signalProcessingThread] closing listening socket: 8
+2017-04-12T14:18:09.698+0800 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2017-04-12T14:18:09.698+0800 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2017-04-12T14:18:09.700+0800 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2017-04-12T14:18:09.704+0800 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2017-04-12T14:18:09.889+0800 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2017-04-12T14:18:09.894+0800 I CONTROL  [signalProcessingThread] now exiting
+2017-04-12T14:18:09.894+0800 I CONTROL  [signalProcessingThread] shutting down with code:0
+2017-04-12T14:18:09.894+0800 I CONTROL  [initandlisten] shutting down with code:0
